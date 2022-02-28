@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    height: 60px;
+    padding: 40px 80px 0;
+    width: 100vw;
+    justify-content: flex-end;
+}
+
+header ul{
+    text-align: right;
+}
+
+.firstView ul li{
+    display: inline;
+    padding: 20px 40px;
+}
+
+.firstView ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.firstView ul a:hover{
+    color: #3D5CDB;
+}
+
+.firstView{
+    background-image: url(images/background1.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.firstView img{
+    width: 60vw;
+    margin: 0 auto;
+    border:solid 1px #000;
+}
+
+.firstView p{
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 10px;
+    color: #3D5CDB;
+}
+
+.intro1{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.intro1img{
+    width: 350px;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.intro1img img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    margin: 0 20px 0 0;
+}
+
+.intro1content{
+    align-items: center;
+    width: 350px;
+    margin: 0 20px;
+}
+
+.intro1content h2{
+    width: 350px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.intro1content a{
+    width: 150px;
+    height: 30px;
+    margin: 30px auto;
+    display: block;
+    text-decoration: none;
+    background-color: #3d5cdb;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.intro1content a:hover{
+    box-shadow: 0 2px 15px 2px rgba(140,140,140,0.4);
+}
+
+.intro2{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.intro2img{
+    width: 350px;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.intro2img img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    margin: 0 20px 0 0;
+}
+
+.intro2content{
+    align-items: center;
+    width: 350px;
+    margin: 0 20px;
+}
+
+.intro2content h2{
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.intro2content a{
+    width: 150px;
+    height: 30px;
+    margin: 30px auto;
+    display: block;
+    text-decoration: none;
+    background-color: #3d5cdb;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.intro2content a:hover{
+    box-shadow: 0 2px 15px 2px rgba(140,140,140,0.4);
+}
+
+.Courses{
+    background-color: #dfeafa;
+}
+
+.courseList{
+    display: flex;
+    justify-content: center;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.courseType{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    background-repeat: 8px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.courseType img{
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.courseType p{
+    font-size: 15px;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.courseType a{
+    display: block;
+    width: 160px;
+    height: 35px;
+    color : #fff;
+    font-size: 14px;
+    margin: 30px auto; 
+    text-decoration:none;
+    border-radius: 12px;
+    padding-top: 10px;
+    box-shadow: none;
+    align-items: center;
+}
+
+.courseType a:hover{
+    box-shadow: 0 2px 15px 2px rgba(140,140,140,0.4);
+}
+
+.html{background-color : #F16529;}
+
+.css{background-color : #29A9DF;}
+
+.Unity{background-color : #333;}
+
+.Ruby{background-color : #FF5252}
+
+.JavaScript{background-color : #FED700}
+
+.Swift{background-color : #FE7536}
+
+.Go{background-color : #73CEDD}
+
+
+
+.Access{
+    text-align: center;
+}
+
+iframe{
+    width: 600px;
+    height: 450px;
+}
+
+footer{
+    text-align: center;
+    color: #3d5cdb;
+    padding: 30px 0 30px;
+}
